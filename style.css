@@ -1,0 +1,34 @@
+body {
+     font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+background-image: linear-gradient(180deg,
+               hsl(55deg 100% 50%) 1%,
+               hsl(50deg 100% 50%) 43%,
+               hsl(46deg 100% 50%) 50%,
+               hsl(41deg 100% 50%) 51%,
+               hsl(36deg 100% 50%) 51%,
+               hsl(32deg 100% 50%) 49%,
+               hsl(27deg 100% 49%) 49%,
+               hsl(20deg 93% 51%) 50%,
+               hsl(11deg 87% 52%) 57%,
+               hsl(0deg 79% 52%) 99%);
+}
+
+button {
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     background-color: #3498db;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+}
+
+button:hover {
+     background-color: #2980b9;
+}
